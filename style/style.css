@@ -1,0 +1,45 @@
+:root{
+
+    --corFundo: #018080;
+    --corFundo2: #0A5D5D;
+    --barraCinza: #C2C4C4;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: var(--corFundo2);
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+
+}
+main{
+   
+ width: 100%;
+ height: 95%;
+    
+}
+
+footer{
+
+    background-color: var(--barraCinza);
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 5%;
+    
+   
+}
+.start img{
+    margin-left: 5px;
+    margin-right: 2px;
+    border: 2px rgb(119, 118, 118) solid;
+}
